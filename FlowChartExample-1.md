@@ -1,4 +1,4 @@
-``````mermaid
+```mermaid
 flowchart LR
   classDef system fill:#1f2937,stroke:#9ca3af,stroke-width:1px,color:#f8fafc,font-weight:600
   classDef topic fill:#0f766e,stroke:#2dd4bf,stroke-width:1px,color:#ecfeff,font-weight:600
@@ -31,8 +31,6 @@ flowchart LR
   KVAService -->|Save Mars response| KVA_BFL
   KVAService -->|Submit KVA request to IBM Symphony Grid| IBMGrid
   IBMGrid -->|Return response| MinimumResult
-
-  class UI,XVARequest,ReportRunner,RRToSR,EngineToService,ScenarioRunner,SRToRRAck,IBMGrid,MinimumResult,KVAService,KVA_BFL system,topic,service,topic,topic,service,topic,service,topic,service,topic
 ```
 
 ```mermaid
